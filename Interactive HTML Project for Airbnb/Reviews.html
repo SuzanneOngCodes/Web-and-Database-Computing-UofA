@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Airbnb Project</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <!-- =======================================================
+  * Template Name: Rapid - v2.2.0
+  * Template URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top header-transparent">
+      <div class="container d-flex align-items-center">
+
+        <h1 class="logo mr-auto"><a href="index.html"><b>The Project</a></h1>
+        <nav class="main-nav d-none d-lg-block">
+          <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Purpose</a></li>
+            <li class="drop-down"><a href="#services">Factors</a>
+              <ul>
+                <li><a href="Listings.html" >COVID-19 pandemic</a></li>
+                <li><a href= "Reviews.html" >Number of Reviews</a></li>
+              </ul>
+            </li>
+            <li><a href= "Conclusion.html">Conclusion</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+  <main id="main">
+      
+    <!-- ======= Portfolio Details Section ======= -->
+
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container" data-aos="fade-up">
+          
+          <div class="portfolio-description">
+            <h2><br><br><br>The Number Of Reviews Versus The Occupancy Rate Of Airbnb Rooms</h2>
+            <p>
+              In this site there are three interactive charts that depict the effect of the number of reviews given by the Airbnb customers.
+            </p>
+          </div>
+          <div class="portfolio-details-container">
+                <div id="plotly-div4">
+                    <script></script>
+                </div>
+
+          </div>
+          <p><br>
+            This wind rose chart illustrates the number of occupied rooms based on the occupancy rate percentage for all regions. By interacting with each regions individually, you will notice a stark difference in the number of reviews between rooms with high occupancy rate (70% to 100%) and low occupancy rate (0% to 70%) depending on the regions. Click around to see what happen!
+          </p>
+          <div class="portfolio-details-container">
+              <div id="plotly-div5" >
+                  <script></script>
+              </div>
+          </div>
+          <p>No zero or negative percentage difference  =  The mean number of reviews for rooms with high occupancy rate is lower than the other rooms!<br><br>This indicates that there is a higher chance for a room to have high occupancy rate when it has a higher number of reviews than the average value as customers prefer rooms that have a higher number of reviews<br>Limitations: It does not factor in the level of positivity or negativity of the reviews, which may affect the customers' preference from an emotional prespective. It also does not include the overall rankings of the rooms given in the reviews due to the lack of information in the given datasets</p>
+          <div class="portfolio-details-container">
+              <div id="plotly-div" >
+                  <script></script>
+              </div>
+          </div>
+          <div>
+              <a href="HTML_Backup/ReviewsHist.html" target="_blank" style="display: block; text-align: center; color:red"><img src="https://plotly.com/~Sue99/16.png?share_key=l4nE236DpU7Xdf5Ne5nRnb" alt="ReviewsHist" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /><br>Histogram link<br></a>
+          </div>
+
+          <p>The changes of the number of reviews for each regions can also be presented in this histogram plot shown above</p>
+          <img src="assets/img/Stats.png">
+          <p>
+          Since p-value is less than 0.01, there is a strong correlation between the number of reviews and the high occupancy rate of Airbnb. There is a huge difference between the number of reviews of rooms with high occupancy rate(75% and above) and those below
+          </p>
+          </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+  
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/ReviewsWind.js"></script>
+  <script src="assets/js/ReviewsBar.js"></script>
+  <script src="assets/js/ReviewsHist.js"></script>
+
+</body>
+
+</html>
