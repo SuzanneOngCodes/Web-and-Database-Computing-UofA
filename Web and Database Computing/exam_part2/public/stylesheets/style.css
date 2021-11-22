@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(250, 250, 251);
+    border-top: 3px solid orange;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding: 0.5em 1em;
+}
+
+header button {
+    float: right;
+}
+
+header .logo {
+    float: left;
+    margin: 0.5em;
+    width: 150px;
+}
+
+header ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 1em;
+}
+
+header ul li:hover {
+    background-color: #aaaaaa;
+}
+
+main, section {
+    margin-top: 4em;
+    padding: 1em;
+}
+
+footer {
+    padding: 0.5em 0.5em 0.5em 5em;
+    background-color: #222222;
+    color: #aaaaaa;
+    min-height: 20vh;
+}
+
+footer h4 {
+    font-size: 1rem;
+    color: #dddddd;
+    text-transform: uppercase;
+}
+
+.post {
+    border-bottom: 1px solid lightgrey;
+    padding: 1em;
+}
+
+.post h3 {
+    font-weight: normal;
+}
+
+.post .date {
+    float: right;
+}
+
+.tag {
+    background-color: rgb(225, 236, 244);
+    color: rgb(57, 115, 157);
+    border-radius: 0.3em;
+    padding: 0.4em;
+    font-size: 0.8em;
+    margin: 0 0.1em;
+}
+
+a {
+    color: skyblue;
+}
+
+button {
+    background-color: rgb(0, 149, 255);
+    border: hidden;
+    border-radius: 0.3em;
+    padding: 0.6em;
+    margin: 0 0.2em;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(0, 120, 230);
+}
+
+.right {
+    float: right;
+}
+
+#ask input[type="text"], #ask textarea {
+    width: 90%;
+    margin-bottom: 0.5em;
+}
+
+textarea {
+    min-height: 20vh;
+    padding: 0.5em;
+}
+
+.post .content{
+    margin-left: 6em;
+    min-height: 10em;
+}
+
+.post .votes {
+    width: 5em;
+    float: left;
+    background-color: rgb(245, 212, 142);
+    color: rgb(255, 255, 255);
+    border-radius: 0.3em;
+    padding: 1em;
+    font-size: 0.8em;
+    text-align: center;
+    margin-right: 2em;
+    margin-top: 2em;
+}
+
+.post .votes .count {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.post .votes button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.post .votes button:hover {
+    color: skyblue;
+}
+
+section {
+    display: none;
+}

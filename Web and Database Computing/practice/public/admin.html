@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- Copyright 2018, University of Adelaide -->
+<!-- based on layout from https://purecss.io/layouts/blog/download, see attached license -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+    <title>SentencePress</title>
+    
+    <link rel="stylesheet" href="stylesheets/pure-min.css">
+    <link rel="stylesheet" href="stylesheets/grids-responsive-min.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    
+    <script src="javascripts/blog.js"></script>
+</head>
+<body onload="showUsers();">
+
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+        <div class="header">
+            <h1><a style="color: white; text-decoration: underline;" href="/">S</a>entence&#8203;Press</h1>
+            <h2 class="brand-tagline">Because a sentence is better than a word.</h2>
+
+        </div>
+    </div>
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+
+            <div class="posts">
+                <div class="content-subhead">
+                <h1>Users</h1>
+                
+                <br /><span id="status">&nbsp;</span><br />
+                
+                <table id="users" class="pure-table">
+                    
+                    <thead><tr><th>ID</th><th>Type</th><th>Username</th><th>Name</th><th>Profile Image URL</th></tr></thead>
+                    <tbody>
+                    </tbody>
+            
+                </table>
+                
+            </div>
+
+            <div class="footer">
+                <div class="pure-menu pure-menu-horizontal">
+                    <ul>
+                        <li class="pure-menu-item"><a href="https://cs.adelaide.edu.au/" class="pure-menu-link">About</a></li>
+                        <li class="pure-menu-item"><a href="https://github.cs.adelaide.edu.au/" class="pure-menu-link">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

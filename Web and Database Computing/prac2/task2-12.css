@@ -1,0 +1,162 @@
+.orangebackground{
+    background-color:papayawhip;
+    background-image:url("dots.png");
+    margin:0px;
+}
+
+.greyborder{
+    background-color:white;
+    border:1px solid lightgrey;
+    position:absolute;
+    box-sizing:border-box;
+    padding-bottom:10px;
+    height:100%;
+    margin:0px 50px;
+}
+
+h1{
+    color:darkorange;
+    font-family:Pacifico;
+    background-color:dimgrey;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-top:0px;
+    padding:5px;
+}
+
+h2,p,ul,h3{
+    font-family:Quicksand;
+}
+
+u{
+    font-style:italic;
+    color:darkgrey;
+    font-size:50%;
+    font-family:Quicksand;
+}
+
+#nav-bar{
+    list-style-type:none;
+    padding:8px;
+    padding-top:0px;
+    box-sizing:border-box;
+}
+
+#nav-bar li{
+    float:left;
+    color:dimgrey;
+    font-family:Quicksand;
+    margin-right:13px;
+    margin-left:13px;
+}
+
+#nav-bar li:hover{
+    color:darkorange;
+}
+
+#tab{
+    width:85%;
+    border-collapse:collapse;
+    font-family:Quicksand;
+}
+
+#tab th{
+    background-color: dimgrey;
+    color:white;
+    text-align:left;
+}
+
+#tab tr:nth-child(even){
+    background-color: lightgrey;
+}
+
+#tab td,th{
+    padding:5px;
+    border-bottom:1px solid darkgrey;
+}
+
+.orange{
+    color:darkorange;
+}
+
+.section{
+    margin-top:30px;
+    display:block;
+    width:65%;
+    margin:20px;
+}
+
+img{
+    float:right;
+    width:30%;
+    height:30%;
+    padding:20px;
+    margin-right:10px;
+}
+
+.clearfix{
+    overflow:auto;
+}
+
+.right{
+    float:right;
+    border-left:1px solid lightgrey;
+    padding:10px;
+    font-family:Quicksand;
+    color:darkgrey;
+    width:30%;
+    margin-left:10px;
+}
+
+.right p{
+    padding:0px;
+}
+
+.button{
+    background-color:darkorange;
+    color:white;
+    padding:10px 40px;
+    text-align:center;
+    border-radius:5px;
+}
+
+.below{
+    font-size:80%;
+}
+
+.below a{
+    color:darkorange;
+    text-decoration:underline;
+}
+
+#foot{
+    background-color:dimgrey;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-family:Quicksand;
+    box-sizing:border-box;
+    width:100%;
+    position:absolute;
+    bottom:0px;
+    color:lightgrey;
+    text-align:center;
+}
+
+#foot h3{
+    float:left;
+    font-family:Pacifico;
+    font-style:italic;
+    margin-left:5px;
+    font-size:150%;
+}
+
+#foot i{
+    margin-top:30px;
+    padding:5px;
+}
+
+#foot div{
+    float:right;
+    font-size:200%;
+    margin-right:10px;
+}

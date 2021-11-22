@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>WDC Overflow</title>
+        <link rel="stylesheet" href="stylesheets/style.css" >
+        <script src="javascripts/page.js" defer></script>
+    </head>
+    <body onload="loadPosts()">
+        <header>
+            <!--<button>Signup</button>-->
+            <img class="logo" src="images/logo.png" alt="WDC Overflow" />
+            <ul>
+                <li>Products</li>
+                <li>Customers</li>
+                <li>Use Cases</li>
+            </ul>
+        </header>
+        <main id="main">
+
+            <label for="username">Username</label><input type="text" id="username" />
+            <label for="password">Password</label><input type="password" id="password" />
+            <button onclick="login()">Login</button>
+            <button onclick="logout()">Logout</button>
+
+            <div class="search">
+                <button class="right" onclick="showAsk()">Ask Question</button>
+                <h2>Search Results</h2>
+                <button class="right" onclick="searchPosts()">Search</button>
+                <input type="text" name="search" id="post-search" placeholder="Enter your search terms"  />
+            </div>
+
+            <div id="post-list">
+
+                <!--
+                <div class="post">
+
+                    <div class="votes">
+                        <button>+</button>
+                        <p><span class="count">123</span><br />votes</p>
+                        <button>-</button>
+                    </div>
+                    <div class="content">
+                        <h3><a href="post">This is a post</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur maximus, lorem non varius consequat, ipsum magna vestibulum lectus, et fringilla tellus augue id nisl. Donec tempus est a hendrerit ornare. Phasellus blandit est in malesuada interdum. Mauris finibus vehicula turpis vel lobortis. Phasellus tempor elit massa. Morbi vulputate leo a neque mollis varius. Donec ultricies aliquam vulputate. Nunc dapibus lectus a risus rutrum pulvinar.</p>
+                        <span class="tag">Tag1</span><span class="tag">Tag2</span><span class="date">Date blah</span>
+                    </div>
+
+                </div>
+                -->
+
+            </div>
+
+        </main>
+        <section id="ask">
+            <h2>Ask a Question</h2>
+            <input id="post-title" type="text" placeholder="Title" /><br />
+            <textarea id="post-content" placeholder="Details..." ></textarea><br />
+            <input id="post-tags" type="text"  placeholder="Tags" /><br />
+            <button onclick="createPost()">Create Post</button>
+            <button  onclick="showMain()">Cancel</button>
+        </section>
+        <footer>
+            <h4>This is a footer</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur maximus, lorem non varius consequat, ipsum magna vestibulum lectus, et fringilla tellus augue id nisl. Donec tempus est a hendrerit ornare. Phasellus blandit est in malesuada interdum. Mauris finibus vehicula turpis vel lobortis. Phasellus tempor elit massa. Morbi vulputate leo a neque mollis varius. Donec ultricies aliquam vulputate. Nunc dapibus lectus a risus rutrum pulvinar. </p>
+        </footer>
+    </body>
+</html>

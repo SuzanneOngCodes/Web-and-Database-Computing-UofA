@@ -1,0 +1,1 @@
+SELECT Students.given_name, Students.family_name FROM Enrolments INNER JOIN Students ON Enrolments.student_id=Students.student_id WHERE Enrolments.subject_code='COMP SCI 2207';

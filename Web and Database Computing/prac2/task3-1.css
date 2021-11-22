@@ -1,0 +1,52 @@
+.bold {
+    font-weight: bold;
+}
+
+.normal {
+    color: black;
+}
+
+body {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+div {
+    color: black;
+}
+
+span {
+    color: red;
+}
+
+div p {
+    color: green;
+}
+
+div p span {
+    color: black;
+}
+
+div p span span {
+    color: red;
+}
+
+div p span span.color {
+    color: black;
+}
+
+/*Change this to green because it involves span and bold*/
+p span span.normal {
+    color: green;
+}
+
+div + p span span.color {
+    color: black;
+}
+
+div + div span span.normal {
+    color: black;
+}

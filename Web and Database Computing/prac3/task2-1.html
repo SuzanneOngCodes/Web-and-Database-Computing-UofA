@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This page definitely has a title</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <p id="text"><strong>NOT</strong> working</p>
+
+        <script>
+            var p = document.getElementById("text");
+            // No () in innerHTML
+            p.innerHTML = 'It <strong>IS</strong> working';
+        </script>
+    </body>
+</html>

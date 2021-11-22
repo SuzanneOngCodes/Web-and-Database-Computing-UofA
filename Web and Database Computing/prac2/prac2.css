@@ -1,0 +1,285 @@
+h1{
+    font-family:Raleway,sans-serif;
+}
+
+h2{
+    font-family:Raleway,sans-serif;
+    text-align: left;
+}
+
+body{
+    font-family:Noto Serif,serif;
+}
+
+del{
+    color:grey;
+}
+
+pre{
+    font-family:monospace;
+}
+
+.transparent-text{
+    color: rgba(0, 0, 0,0.5);
+}
+
+a{
+    color:darkgreen;
+}
+
+mark{
+    color:darkblue;
+    background-color:pink;
+}
+
+h3{
+    color: rgba(0, 0, 139,0.8);
+}
+
+.fancybackground{
+    background-color:#DCF5F5;
+    background-image:url("cross.png");
+}
+
+.white{
+    background-color:white;
+}
+
+.greyborder{
+    background-color:white;
+    border:1px solid darkgrey;
+    border-radius:8px;
+    padding:10px;
+}
+
+#content{
+    background-color:white;
+}
+
+.blue{
+    color:blue;
+}
+
+.fancy{
+    font-family:cursive;
+}
+
+.red-border{
+    border: 1px solid red;
+}
+
+.blue-border{
+    border: 1px solid blue;
+}
+
+hr{
+    border-color:#CFDFE4;
+}
+
+.red-outline{
+    outline:1px solid red;
+}
+
+.red-rounded{
+    border-left:1px solid red;
+    border-right:1px solid red;
+    border-top:1px solid red;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.blue-rounded{
+    border:1px solid blue;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.outer1{
+    background-color: blue;
+    border: 1px solid red;
+}
+
+.inner1{
+    background-color: yellow;
+    border:1px solid red;
+    /*Top, right, bottom, left*/
+    /*top and bottom, left and right*/
+    margin:10px 20px;
+    padding: 12px;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.outer2{
+    background-color: blue;
+    border: 1px solid red;
+    margin-top: 20px;
+}
+
+.inner2{
+    text-align: right;
+    box-sizing: border-box;
+    border: 1px solid red;
+    padding:12px;
+    background-color: yellow;
+    width:400px;
+    height:400px;
+    /*To center the box*/
+    margin: auto
+}
+
+h4{
+    font-family:Raleway;
+    text-decoration: underline;
+    font-style:italic;
+    font-weight:normal;
+}
+
+blockquote{
+    font-family:Raleway;
+    color:dimgrey;
+    line-height:1.5;
+    word-spacing:0.2em;
+    text-align: justify;
+}
+
+.container{
+    color:#BFCFD4;
+    text-align:center;
+    font-size:36px;
+    padding:10px;
+}
+
+#nav-bar{
+    box-sizing: border-box;
+    /*Add padding to show colors*/
+    padding:20px;
+    background:darkgrey;
+    margin:0px;
+}
+
+#nav-bar a{
+    list-style-type: none;
+    color:white;
+    text-decoration:none;
+    /*Make horizontal list*/
+    float:left;
+    margin-right:30px;
+}
+
+#nav-bar li{
+    /*Use inline not block. This will not force breaks after the list items and they will line up horizontally as far as they are able.*/
+    display:inline;
+}
+
+#nav-bar a:hover{
+    background-color:lightgrey;
+}
+
+ul.dotted{
+    list-style-type: square;
+}
+
+ol.roman{
+    list-style-type: lower-roman;
+}
+
+/*OR...*/
+/*ol ol li{*/
+/*    list-style-type: square;*/
+/*}*/
+
+/*ol ol ol li{*/
+/*    list-style-type: lower-roman;*/
+/*}*/
+
+/*table header and content*/
+#fancy{
+    width:500px;
+    border-collapse:collapse;
+}
+
+#fancy td, #fancy th{
+    border-bottom:1px solid darkgrey;
+    padding:8px;
+}
+
+#fancy th{
+    background-color:darkslategrey;
+    color:white;
+    text-align:left;
+}
+
+/*Grey background in even rows*/
+#fancy tr:nth-child(even){
+    background-color:#F8F8F8;
+}
+
+#fancy td{
+    color:black;
+}
+
+#complex{
+    border-collapse:collapse;
+    border:2px solid black;
+}
+
+#complex tr{
+    text-align:left;
+}
+
+#complex td{
+    border:1px solid grey;
+    padding:8px;
+}
+
+#complex th{
+    background-color:palegoldenrod;
+    box-sizing:border-box;
+    border:1px solid black;
+    padding:8px;
+}
+
+.red_rectangle{
+    width:1000px;
+    height:100px;
+    border:1px solid red;
+    left: 100px;
+    position: absolute;
+    top:100px;
+}
+
+.page1{
+    overflow:scroll;
+    float:left;
+    margin-right: 10px;
+}
+
+.page2{
+    overflow:hidden;
+}
+
+.page1, .page2{
+    box-sizing:border-box;
+    height:400px;
+    position: relative;
+}
+
+.title{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.main{
+    max-width:600px;
+    /*This page is Centered*/
+    margin:auto;
+}
+
+.position{
+    position: relative;
+}
+
+.replies{
+    margin:10px;
+}

@@ -1,0 +1,1 @@
+SELECT Teachers.staff_id, Teachers.given_name, Teachers.family_name FROM ((Subjects INNER JOIN Teachers ON Teachers.staff_id = Subjects.teacher_id) INNER JOIN Enrolments ON Enrolments.subject_code = Subjects.subject_code) WHERE Teachers.faculty='ECMS' AND Enrolments.student_id='a1111113';

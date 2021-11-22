@@ -1,0 +1,49 @@
+.blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    padding: 10px;
+}
+
+.red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 10px;
+}
+
+.l1 {
+    margin-left: 120px;
+}
+
+#left {
+    float: left;
+}
+
+body {
+    color: black;
+}
+
+div {
+    padding: 10px;
+}
+
+div.red {
+    padding: 10px;
+}
+
+div.l2 div.red {
+    margin-top: 20px;
+}
+
+#left div.blue {
+    margin-top: 20px;
+}
+
+div div {
+    padding: 0px;
+}
+
+div div div {
+    margin: 0px;
+}
