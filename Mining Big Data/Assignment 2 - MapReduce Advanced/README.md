@@ -1,6 +1,6 @@
-* Special thanks to Annie's (Thi Ngoc Anh Dang) collaboration for making this possible 😊 *
+**Special thanks to Annie's (Thi Ngoc Anh Dang) collaboration for making this possible** 😊
 
-Instructions for Q3: 
+# Instructions for Q3: 
 1) For standalone mode: 
 * Right click the assignment2 project in question3/src folder, click on run configurations and direct the name to the MapReducedAdvanced class. 
 * Change your argument based on the format [INPUT FILE] [OUTPUT DIRECTORY] (eg. ex3_friend_recommendation.txt output_test). 
