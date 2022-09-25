@@ -1,6 +1,0 @@
-matplotlib
-scipy>=1.7.3
-numpy
-networkx
-sklearn
-resource
